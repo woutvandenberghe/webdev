@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/labo 3/Afbeeldingen/afbeelding1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo 3/Afbeeldingen/unknown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo 3/homepage/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo 3/opleidingsaanbod/opdrachten_1_2_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labo 3/homepage/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labo 3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labo 3/opdrachten_1_2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/labo 3/opdrachten_1_2_3.html" afterDir="false" />
-    </list>
+    <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +59,7 @@
       <updated>1664954244383</updated>
       <workItem from="1664954246805" duration="2163000" />
       <workItem from="1665058404143" duration="11067000" />
-      <workItem from="1665305781829" duration="3689000" />
+      <workItem from="1665305781829" duration="3929000" />
     </task>
     <servers />
   </component>
