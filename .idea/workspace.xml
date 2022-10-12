@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/PCBomen-Herfst-Blog-Header-peg4b8zpo8b7cr602bzk8vghlkhrqt45d7i53oj8gk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/PCbomen_Blad-enNaaldvreters_2_header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/compressie 40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/herfst compressie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/text webstorm 40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/text webstorm 70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/text webstorm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/opdracht 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/opdracht 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/opdracht 5/hobbys.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/opdracht 5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/opdracht 5/likes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labo 3/homepage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/labo 3/homepage/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +64,7 @@
       <workItem from="1665305781829" duration="3929000" />
       <workItem from="1665319052277" duration="1709000" />
       <workItem from="1665480344873" duration="612000" />
-      <workItem from="1665559130236" duration="4128000" />
+      <workItem from="1665559130236" duration="4272000" />
     </task>
     <servers />
   </component>
