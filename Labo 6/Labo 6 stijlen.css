@@ -1,0 +1,15 @@
+li {
+    display:inline-block;
+    width:150px;
+}
+li > a {
+    color:red;
+}
+
+#afbeelding-link {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ee/Chain_link_icon.png);
+    background-position: center left;
+    padding-left: 25px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}

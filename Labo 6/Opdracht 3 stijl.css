@@ -1,0 +1,31 @@
+@font-face { font-family: Helvetica;
+    src: url('/Labo 6/Helvetica.ttf'); }
+body{font-family: Helvetica; margin:0; }
+
+h1{font-size:80px;}
+h2{font-size:40px;}
+header{
+    background-color: #2B2D42;
+    color:#8D99AE;
+    display: block;
+    margin-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+    padding:30px;
+}
+header > h2{color: #EDF2F4}
+header > h1{color: #EDF2F4}
+main{background-color: #8D99AE; margin-left:5px; padding:30px; line-height: 20px;
+}
+footer{background-color: #2B2D42; padding:30px; margin-top:10px; margin-left:5px; margin-right: 5px; color:#8D99AE;}
+ul{ list-style-position: inside;
+    padding-left: 0;}
+li {
+    display:inline-block;
+    list-style-type:none;
+}
+li > a {
+    color:red;
+    text-decoration: underline;
+
+}
