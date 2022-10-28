@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/VSCodeUserSetup-x64-1.72.1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 4/Afbeeldingen/VisualStudioSetup.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 5/Afbeeldingen/Afbeelding miras.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 5/Afbeeldingen/Afbeelding vrt design 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 5/Afbeeldingen/afbeelding vives 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 5/Afbeeldingen/afbeelding vives.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 5/Afbeeldingen/afbeelding vrt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Helvetica.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Labo 6 stijlen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Opdracht 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Opdracht 3 stijl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Opdracht 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Opdracht 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/Opdracht 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/raphic-free-stock-point-png-for-free-download-on-pointing-finger-emoji-transparent-115632663688ufmcxriah.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 6/style opdracht6.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -91,6 +73,7 @@
       <workItem from="1666165091645" duration="3404000" />
       <workItem from="1666767706364" duration="5938000" />
       <workItem from="1666824330483" duration="9817000" />
+      <workItem from="1666989686461" duration="150000" />
     </task>
     <servers />
   </component>
