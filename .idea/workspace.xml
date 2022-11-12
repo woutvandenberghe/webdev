@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="" />
+    <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Labo 7/Homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/Kalender.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/Natuurblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/Styles labo 7/Kalender.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/Styles labo 7/Labo 7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/Styles labo 7/Natuurblog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/Styles labo 7/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\woutv\OneDrive\Documents\GitHub\webdev\Labo 7" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webdev/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -71,7 +87,8 @@
       <workItem from="1666767706364" duration="5938000" />
       <workItem from="1666824330483" duration="9817000" />
       <workItem from="1666989686461" duration="150000" />
-      <workItem from="1667981286413" duration="88000" />
+      <workItem from="1667981286413" duration="5687000" />
+      <workItem from="1668264916250" duration="5008000" />
     </task>
     <servers />
   </component>
