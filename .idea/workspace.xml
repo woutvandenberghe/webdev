@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Gastcollege/gastcollege.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gastcollege/gastcollege.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontendmentorprofilecardBeginSituatie" beforeDir="false" afterPath="$PROJECT_DIR$/frontendmentorprofilecardBeginSituatie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontendmentorprofilecardBeginSituatie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontendmentorprofilecardBeginSituatie/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontendmentorprofilecardBeginSituatie/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontendmentorprofilecardBeginSituatie/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <workItem from="1667981286413" duration="5687000" />
       <workItem from="1668264916250" duration="5606000" />
       <workItem from="1668689782780" duration="1508000" />
-      <workItem from="1669146612201" duration="3013000" />
+      <workItem from="1669146612201" duration="3330000" />
     </task>
     <servers />
   </component>
