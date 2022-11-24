@@ -1,0 +1,14 @@
+html{width: 100%; margin:0 auto;}
+
+body{display: flex; width:100vw; margin:0}
+
+.doos{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding:10px;
+    margin: 10px;
+    top:0;
+    border-style: solid;
+    border-width: 1px;
+}
