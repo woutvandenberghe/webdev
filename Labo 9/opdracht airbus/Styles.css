@@ -1,0 +1,152 @@
+body{
+    width: 960px;
+    margin:auto;
+    font-family: Arial, Helvetica sans-serif;
+    background-image: url("fotos/pagebackground.png");
+    background-size: cover;
+}
+
+/*top*/
+body > div:nth-of-type(1)
+{
+    height: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url("fotos/bgsky3.jpg");
+    color: darkblue;
+}
+body > div:nth-of-type(1) > p:nth-of-type(1)
+{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+body > div:nth-of-type(1) > p:nth-of-type(2)
+{
+    font-size: 240%;
+    font-weight: bold;
+}
+body > div:nth-of-type(1) img
+{
+    position: relative;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+
+/*zijbalk*/
+body >div:nth-of-type(2)
+{
+    width: 250px;
+    background-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+    color: #666666;
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 0px;
+    float:right;
+    display: inline-block;
+}
+
+div:nth-of-type(2) > h3
+{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+}
+
+/*main*/
+div:nth-of-type(3)
+{
+    width: 700px;
+}
+
+/*introduction*/
+div:nth-of-type(3)
+{
+    background-color: white;
+
+}
+
+/*Logo airbus*/
+body > div:nth-of-type(3) > div:nth-of-type(1)
+{
+    margin-top: 20px;
+    display: inline-block;
+    float:left;
+}
+
+
+
+/*Tekst onder logo*/
+body > div:nth-of-type(3) > div:nth-of-type(2)
+{
+
+}
+div:nth-of-type(3) > div:nth-of-type(2) span
+{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    display:inline-block;
+    text-align: justify;
+}
+
+/*Gallery*/
+div:nth-of-type(3)> div:nth-of-type(3)
+{
+    background-color: #999999;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+div:nth-of-type(3)> div:nth-of-type(3) img
+{
+    width: 180px;
+    height: 180px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #999999;
+    margin:10px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-basis: 10%;
+
+
+}
+
+/*Bottom*/
+body > div:nth-of-type(4)
+{
+    width: 100%;
+    display: inline-block;
+    background-color:  #666666;
+    color: white;
+    line-height: 2em;
+
+}
+body > div:nth-of-type(4) > div:nth-of-type(1)
+{
+    float:left;
+    margin-left: 120px;
+}
+body > div:nth-of-type(4) > div:nth-of-type(2)
+{
+    float: right;
+    margin-right: 120px;
+}
+body > div:nth-of-type(4) > div:nth-of-type(1) a:hover
+{
+    color: red;
+}
+body > div:nth-of-type(4) > div:nth-of-type(2) a:hover
+{
+   color: red;
+}
+/*Copyright*/
+body > div:nth-of-type(5)
+{background-color: white; text-align: center; color: black}
