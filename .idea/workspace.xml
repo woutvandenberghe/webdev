@@ -2,79 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/CSS/oef1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/images/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/images/cat1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/images/cat2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/images/cat3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/images/cat4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/Begin_situatie_mediaQueries/oef1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 10/bootstrap-5.2.3-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Beginsituatie(1).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Beginsituatie/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Beginsituatie/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises(1).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/.idea/Grid Exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/exercise1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/exercise2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/exercise3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/exercise4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/exercise5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/css/exercise6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/exercise1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/exercise2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/exercise3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/exercise4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/exercise5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/exercise6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo 11/Grid Exercises/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/Styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/demo rekenmachine.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/demo rekenmasjien/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/demo rekenmasjien/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/demo rekenmasjien/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -86,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -113,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/woutv/OneDrive/Documents/GitHub/webdev/Labo 8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/woutv/Downloads/webdevelopment - Dieter&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -167,7 +101,10 @@
       <workItem from="1669897299615" duration="11945000" />
       <workItem from="1670400447746" duration="3902000" />
       <workItem from="1671004797072" duration="5429000" />
-      <workItem from="1671555155954" duration="3866000" />
+      <workItem from="1671555155954" duration="4463000" />
+      <workItem from="1673192990679" duration="2000" />
+      <workItem from="1673984564586" duration="637000" />
+      <workItem from="1675846510714" duration="1217000" />
     </task>
     <servers />
   </component>
