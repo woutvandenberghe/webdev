@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="script" href="script.js">
+</head>
+<body>
+<form action="filename" method="post/get">
+  <p>
+    <label for="firstname">First name*:</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Your first name" required="required" autofocus="autofocus">
+  </p>
+  <p>
+    <label for="lastname">Last name*:</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Your last name" required="required">
+  </p>
+  <p>Which sports do you train?<br>
+    <label for="running"><input type="checkbox" id="running" name="Running" value="run"/> Running</label><br>
+    <label for="swimming"><input type="checkbox" id="swimming" name="Swimming" value="swim" /> Swimming</label><br>
+    <label for="rowing"><input type="checkbox" id="rowing" name="Rowing" value="row" /> Rowing</label>
+  </p>
+  <p>
+    What is your gender<br>
+    <label for="male"><input type="radio" id="male" name="gender" value="M" /> Male</label><br>
+    <label for="female"><input type="radio" id="female" name="gender" value="F" /> Female</label>
+  </p>
+  <p>
+    <label for="movie">Favourite movie:</label>
+    <input type="text" id="movie" name="movie"><br>
+    <label for="quote">Favourite quote:</label>
+    <input type="text" id="quote" name="quote" placeholder="Write your favourite quote"><br>
+    <label for="password">Password*:</label>
+    <input type="password" id="password" name="password" required="required"><br>
+  </p>
+  <p>
+    <label for="eten">Favourite food:</label>
+    <select id="eten" name="favouritefood">
+      <option value="hamburger">Hamburger</option>
+      <option value="pizza">Pizza</option>
+      <option value="spaghetti">Spaghetti</option>
+      <option value="cake">Cake</option>
+    </select>
+  </p>
+<p>
+
+  <input type="file" id="file" name="file" ><br>
+  <label for="file"></label>
+  <label for="email">Email adress: </label><input type=”email” id="email" name=”txtEmail” placeholder="Enter your email adress"/><br>
+  <label for="url">Favourite site: </label><input type=”url” id="url" name=”txtEmail” placeholder="Enter your favourite url"/><br>
+  <label for="number1">Favourite number between 1-10: </label>
+  <input type="number" id="number1" max="10"><br>
+  <label for="myRange">Favourite number between 11-100</label>
+  <input type="range" id="myRange" value="11" min="11" max="1000" oninput="this.nextElementSibling.value = this.value">
+  <output>11</output><br>
+  <label for="date">When were you born:</label>
+  <input type="date" id="date" name="date"><br>
+  <label for="postcode">Belgium zip-code reg number*: </label>
+  <input type="text" name="postcode" id="postcode" size="4"
+         maxlength="4" required="required"/><br>
+  <label for="search">Search:</label>
+  <input type="text" id="search" name="search"><br>
+
+  <label for="colorWell">Favourite colour:</label>
+  <input type="color" value="#ff0000" id="colorWell" /><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

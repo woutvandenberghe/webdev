@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="resultaat"></p>
+
+<script>
+  const tekst = "De man van An geeft geen hand aan ambetante verwanten";
+  let count = 0;
+  let index = tekst.indexOf("an");
+
+  while (index !== -1) {
+    count++;
+    index = tekst.indexOf("an", index + 1);
+  }
+
+  const resultaatElement = document.getElementById("resultaat");
+  resultaatElement.innerHTML = `Het aantal keren dat de sequentie 'an' voorkomt is: ${count}`;
+</script>
+</body>
+</html>

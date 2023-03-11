@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<label for="inputField">Voer tekst in:</label>
+<input type="text" id="inputField">
+<button onclick="printMetSpaties()">Toon met spaties</button>
+<script>
+  function printMetSpaties() {
+    const inputText = document.getElementById("inputField").value;
+    const result = maakMetSpaties(inputText);
+    console.log(result);
+  }
+
+  function maakMetSpaties(inputText) {
+    let result = "";
+    for (let i = 0; i < inputText.length; i++) {
+      result += inputText.charAt(i) + " ";
+    }
+    return result;
+  }
+</script>
+</body>
+</html>
