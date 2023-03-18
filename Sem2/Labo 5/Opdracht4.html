@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invulformulier</title>
+  <style>
+    input.invalid {
+      border: 1px solid red;
+    }
+    .error {
+      color: red;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <label for="voornaam">Voornaam:</label>
+  <input type="text" id="voornaam" name="voornaam" maxlength="30"><br>
+  <label for="familienaam">Familienaam:</label>
+  <input type="text" id="familienaam" name="familienaam" required maxlength="50"><br>
+  <label for="geboortedatum">Geboortedatum:</label>
+  <input type="date" id="geboortedatum" name="geboortedatum" required pattern="\d{4}-\d{2}-\d{2}" title="formaat is niet jjjj-mm-dd"><br>
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required><br>
+  <label for="aantal_kinderen">Aantal kinderen:</label>
+  <input type="number" id="aantal_kinderen" name="aantal_kinderen" required min="0" max="98"><br>
+  <input type="button" value="Valideer" onclick="validateForm()">
+</form>
+
+<script>
+  function validateForm() {
+    var voornaam = document.getElementById("voornaam");
+    var familienaam = document.getElementById("familienaam");
+    var geboortedatum = document.getElementById("geboortedatum");
+    var email = document.getElementById("email");
+    var aantal_kinderen = document.getElementById("aantal_kinderen");
+    var valid = true;
+
+    if (voornaam.value.length > 30) {
+      voornaam.classList.add("invalid");
+      voornaam.insertAdjacentHTML('afterend', '<span class="error">max. 30 karakters</span>');
+      valid = false;
+    }
+
+    if (familienaam.value.length === 0) {
+      familienaam.classList.add("invalid");
+      familienaam.insertAdjacentHTML('afterend', '<span class="error">verplicht veld</span>');
+      valid = false;
+    }
+    else if (familienaam.value.length > 50) {
+      familienaam.classList.add("invalid");
+      familienaam.insertAdjacentHTML('afterend', '<span class="error">max. 50 karakters</span>');
+      valid = false;
+    }
+
+    if (!geboortedatum.checkValidity()) {
+      geboortedatum.classList.add("invalid");
+      geboortedatum.insertAdjacentHTML('afterend', '<span class="error">formaat is niet jjjj-mm-dd</span>');
+      valid = false;
+    }
+
+    if (email.value.indexOf("@") === -1 || email.value.indexOf("@") === email.value.length-1 || email.value.indexOf("@") !== email.value.lastIndexOf("@")) {
+      email.classList.add("invalid");
+      email.insertAdjacentHTML('afterend', '<span class="error">geen geldig email adres</span>');
+      valid = false;
+    }
+
+    if (aantal_kinderen.value < 0) {
+      aantal_kinderen.classList.add("invalid");
+      aantal_kinderen.insertAdjacentHTML('afterend', '<span class="error">is geen positief getal</span>');
+      valid = false;
+    }
+    else if (aantal_kinderen.value >= 99) {
+      aantal_kinderen.classList.add("invalid");
+      aantal_kinderen.insertAdjacentHTML('afterend', '<span class="error">is te vruchtbaar</span>');
+      valid = false;
+    }
+
+    if (valid) {
+      alert("proficiat!");
+    }
+  }
+</script>
+</body>
+</html>
+

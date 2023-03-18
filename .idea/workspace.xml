@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/an.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/formulierElementen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/labo4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/script2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/spatiemetfunctie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2/Labo4/spatieopdracht.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo 5/Gemeentes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo 5/Opdracht1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo 5/Opdracht2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo 5/Opdracht3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo 5/Opdracht4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo 5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -106,7 +105,8 @@
       <workItem from="1673984564586" duration="637000" />
       <workItem from="1675846510714" duration="1814000" />
       <workItem from="1678262218709" duration="8736000" />
-      <workItem from="1678538759093" duration="3555000" />
+      <workItem from="1678538759093" duration="3974000" />
+      <workItem from="1679155738677" duration="3844000" />
     </task>
     <servers />
   </component>

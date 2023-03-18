@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invoervelden</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Invoervelden</h1>
+<form>
+  <label>
+    Is roker: <input type="checkbox" name="rookt">
+  </label><br><br>
+  <label>
+    Moedertaal:<br>
+    <input type="radio" name="moedertaal" value="nl">Nederlands<br>
+    <input type="radio" name="moedertaal" value="fr">Frans<br>
+    <input type="radio" name="moedertaal" value="en">Engels<br>
+  </label><br><br>
+  <label>
+    Favoriete buurland:<br>
+    <select name="buurland">
+      <option value="nl">Nederland</option>
+      <option value="fr">Frankrijk</option>
+      <option value="de">Duitsland</option>
+    </select>
+  </label><br><br>
+  <label>
+    Bestelling:<br>
+    <select name="bestelling" multiple>
+      <option value="aardappelen">Aardappelen</option>
+      <option value="brood">Brood</option>
+      <option value="melk">Melk</option>
+      <option value="biefstuk">Biefstuk</option>
+      <option value="chips">Chips</option>
+      <option value="krant">Krant</option>
+    </select>
+  </label><br><br>
+  <button type="button" onclick="toonResultaat()">Toon resultaat</button>
+</form>
+
+<script>
+  function toonResultaat() {
+    const roker = document.querySelector('input[name="rookt"]:checked') ? true : false;
+    const moedertaal = document.querySelector('input[name="moedertaal"]:checked').value;
+    const buurland = document.querySelector('select[name="buurland"]').value;
+    const bestelling = Array.from(document.querySelectorAll('select[name="bestelling"] option:checked')).map(option => option.value);
+
+    console.log("Roker: " + roker);
+    console.log("Moedertaal: " + moedertaal);
+    console.log("Favoriete buurland: " + buurland);
+    console.log("Bestelling: " + bestelling.join(", "));
+  }
+</script>
+</body>
+</html>

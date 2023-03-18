@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gemeenten</title>
+</head>
+<body>
+<h1>Gemeentenlijst</h1>
+<button onclick="voegGemeenteToe()">Voeg gemeente toe</button>
+<button onclick="printGemeenten()">Afdrukken</button>
+<ul id="gemeente-lijst"></ul>
+<script >
+  const gemeenten = [];
+
+  function voegGemeenteToe() {
+    const gemeente = prompt("Voer een gemeente in:");
+
+    if (gemeente && gemeente.trim() !== "stop") {
+      gemeenten.push(gemeente.trim());
+      voegGemeenteToe();
+    } else if (gemeente.trim() === "stop") {
+      alert("Invoer gestopt.");
+    }
+  }
+
+  function printGemeenten() {
+    gemeenten.sort();
+    const gemeenteLijstElement = document.getElementById("gemeente-lijst");
+    gemeenteLijstElement.innerHTML = "";
+
+    for (const gemeente of gemeenten) {
+      const gemeenteElement = document.createElement("li");
+      gemeenteElement.textContent = gemeente;
+      gemeenteLijstElement.appendChild(gemeenteElement);
+    }
+  }
+
+</script>
+</body>
+</html>

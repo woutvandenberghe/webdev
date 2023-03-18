@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trigrams</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<h1>Trigrams</h1>
+<p>Voer een woord in om de trigrams te vinden:</p>
+<input type="text" id="word-input">
+<button onclick="findTrigrams()">Zoek Trigrams</button>
+<ul id="trigram-list"></ul>
+<script>
+  function findTrigrams() {
+    let word = document.getElementById("word-input").value;
+    let trigramList = document.getElementById("trigram-list");
+    trigramList.innerHTML = "";
+    for (let i = 0; i < word.length - 2; i++) {
+      let trigram = word.substring(i, i + 3);
+      let li = document.createElement("li");
+      li.textContent = trigram;
+      trigramList.appendChild(li);
+    }
+  }
+</script>
+</body>
+</html>

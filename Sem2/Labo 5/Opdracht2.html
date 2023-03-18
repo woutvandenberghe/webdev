@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>De vervangen door Het</title>
+</head>
+<body>
+<label for="inputTekst">Voer tekst in:</label>
+<br>
+<textarea id="inputTekst" rows="4" cols="50"></textarea>
+<br>
+<button onclick="vervangDe()">De vervangen door Het</button>
+<br>
+<label for="outputTekst">Resultaat:</label>
+<br>
+<textarea id="outputTekst" rows="4" cols="50" readonly></textarea>
+
+<script>
+  function vervangDe() {
+    let input = document.getElementById("inputTekst").value;
+    let woorden = input.split(" ");
+
+    for (let i = 0; i < woorden.length; i++) {
+      if (woorden[i] === "de") {
+        woorden[i] = "het";
+      }
+    }
+
+    let output = woorden.join(" ");
+    document.getElementById("outputTekst").value = output;
+  }
+</script>
+</body>
+</html>
