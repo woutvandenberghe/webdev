@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="" />
+    <list default="true" id="98d16a1f-cf8b-4e03-956f-76e2ce99f37c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/color-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/colorpicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/inde.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/opdracht1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/opdracht2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/opdracht3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2/Labo6/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +109,7 @@
       <workItem from="1678262218709" duration="8736000" />
       <workItem from="1678538759093" duration="3974000" />
       <workItem from="1679155738677" duration="4439000" />
+      <workItem from="1679584296076" duration="16034000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Picker</title>
+  <style>
+    .color-box {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border: 1px solid black;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<h1>Color Picker</h1>
+
+<input type="color" id="color-picker">
+
+<button id="save-button">Save</button>
+
+<div id="color-list"></div>
+
+<script>
+  // Get references to HTML elements
+  const colorPicker = document.querySelector('#color-picker');
+  const saveButton = document.querySelector('#save-button');
+  const colorList = document.querySelector('#color-list');
+
+  // Add event listener to save button
+  saveButton.addEventListener('click', () => {
+    // Get the selected color
+    const color = colorPicker.value;
+
+    // Create a new color box element
+    const colorBox = document.createElement('div');
+    colorBox.classList.add('color-box');
+    colorBox.style.backgroundColor = color;
+
+    // Create a delete button for the color box
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'X';
+    deleteButton.addEventListener('click', () => {
+      colorBox.remove()
+      deleteButton.remove();
+    });
+
+    // Add the color box and delete button to the color list
+    colorList.appendChild(colorBox);
+    colorList.appendChild(deleteButton);
+  });
+</script>
+
+
+
+</body>
+</html>

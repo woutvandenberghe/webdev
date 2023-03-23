@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RGB Color Slider</title>
+  <style>
+    .color-container {
+      display: inline-block;
+      vertical-align: middle;
+      border: 1px solid lightgray;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .color-preview {
+      width: 50px;
+      height: 50px;
+      margin-left: 10px;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 0;
+    }
+
+    .slider-container {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    input[type="range"] {
+      margin-bottom: 10px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .slider-value {
+      display: inline-block;
+      width: 30px;
+      text-align: center;
+      font-size: 14px;
+      vertical-align: middle;
+    }
+
+    .color-box {
+    border-radius: 20px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="color-container">
+  <div class="slider-container">
+    <label for="red">0</label>
+    <input type="range" id="red" name="red" min="0" max="255" value="0">
+    <span class="slider-value" id="red-value">0</span><br>
+    <label for="green">0</label>
+    <input type="range" id="green" name="green" min="0" max="255" value="0">
+    <span class="slider-value" id="green-value">0</span><br>
+    <label for="blue">0</label>
+    <input type="range" id="blue" name="blue" min="0" max="255" value="0">
+    <span class="slider-value" id="blue-value">0</span><br>
+  </div>
+  <div class="color-preview"></div>
+  <button id="save-button">Save</button>
+</div>
+<div class="color-box" id="color-list"></div>
+<script>
+  const colorPreview = document.querySelector('.color-preview');
+  const redSlider = document.querySelector('#red');
+  const greenSlider = document.querySelector('#green');
+  const blueSlider = document.querySelector('#blue');
+  const redValue = document.querySelector('#red-value');
+  const greenValue = document.querySelector('#green-value');
+  const blueValue = document.querySelector('#blue-value');
+
+  const colorPicker = document.querySelector('.color-preview');
+  const saveButton = document.querySelector('#save-button');
+  const colorList = document.querySelector('#color-list');
+
+  function updateColorPreview() {
+    const redSliderValue = redSlider.value;
+    const greenSliderValue = greenSlider.value;
+    const blueSliderValue = blueSlider.value;
+
+    redValue.textContent = redSliderValue;
+    greenValue.textContent = greenSliderValue;
+    blueValue.textContent = blueSliderValue;
+
+    colorPreview.style.backgroundColor = `rgb(${redSliderValue}, ${greenSliderValue}, ${blueSliderValue})`;
+    colorPreview.style.border = `1px solid black`;
+    colorPreview.style.borderRadius = '5px';
+  }
+
+  function saveColor() {
+    const redSliderValue = redSlider.value;
+    const greenSliderValue = greenSlider.value;
+    const blueSliderValue = blueSlider.value;
+
+    const colorBlock = document.createElement('div');
+    colorBlock.style.backgroundColor = `rgb(${redSliderValue}, ${greenSliderValue}, ${blueSliderValue})`;
+    colorBlock.style.width = '50px';
+    colorBlock.style.height = '50px';
+    colorBlock.style.marginLeft = '10px';
+    colorBlock.style.display = 'inline-block';
+    colorBlock.style.verticalAlign = 'middle';
+    colorBlock.style.borderRadius = '0px';
+    colorBlock.style.position = 'relative';
+    colorBlock.style.border = 'solid 2px';
+
+    const deleteButton = document.createElement('div');
+    deleteButton.innerHTML = 'x';
+    deleteButton.style.position = 'absolute';
+    deleteButton.style.top = '0';
+    deleteButton.style.right = '0';
+    deleteButton.style.width = '20px';
+    deleteButton.style.height = '20px';
+    deleteButton.style.backgroundColor = 'white';
+    deleteButton.style.textAlign = 'center';
+    deleteButton.style.fontSize = '16px';
+    deleteButton.style.fontWeight = 'bold';
+    deleteButton.style.cursor = 'pointer';
+
+    deleteButton.addEventListener('click', function() {
+      colorList.removeChild(colorBlock);
+    });
+
+    colorBlock.appendChild(deleteButton);
+    colorList.appendChild(colorBlock);
+  }
+
+  redSlider.addEventListener('input', updateColorPreview);
+  greenSlider.addEventListener('input', updateColorPreview);
+  blueSlider.addEventListener('input', updateColorPreview);
+
+  saveButton.addEventListener('click', saveColor);
+
+</script>
+</body>
+</html>
